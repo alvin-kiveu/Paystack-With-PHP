@@ -1,0 +1,65 @@
+{
+  "event": "charge.success",
+  "data": {
+    "id": 3297288289,
+    "domain": "live",
+    "status": "success",
+    "reference": "120314277",
+    "amount": 2000,
+    "message": "madePayment",
+    "gateway_response": "Approved",
+    "paid_at": "2023-11-19T05:11:56.000Z",
+    "created_at": "2023-11-19T05:11:39.000Z",
+    "channel": "mobile_money",
+    "currency": "KES",
+    "ip_address": "105.160.89.33",
+    "metadata": "",
+    "fees_breakdown": {
+      "amount": "30",
+      "formula": null,
+      "type": "paystack"
+    },
+    "log": null,
+    "fees": 30,
+    "fees_split": null,
+    "authorization": {
+      "authorization_code": "AUTH_ijrjoum3ev",
+      "bin": "076XXX",
+      "last4": "X060",
+      "exp_month": "12",
+      "exp_year": "9999",
+      "channel": "mobile_money",
+      "card_type": "",
+      "bank": "M-PESA",
+      "country_code": "KE",
+      "brand": "M-pesa",
+      "reusable": false,
+      "signature": null,
+      "account_name": null
+    },
+    "customer": {
+      "id": 148825601,
+      "first_name": null,
+      "last_name": null,
+      "email": "kiveualvin46@gmail.com",
+      "customer_code": "CUS_88a10zxfrpyu6j8",
+      "phone": null,
+      "metadata": null,
+      "risk_action": "default",
+      "international_format_phone": null
+    },
+    "plan": {},
+    "subaccount": {},
+    "split": {},
+    "order_id": null,
+    "paidAt": "2023-11-19T05:11:56.000Z",
+    "requested_amount": 2000,
+    "pos_transaction_data": null,
+    "source": {
+      "type": "web",
+      "source": "checkout",
+      "entry_point": "request_inline",
+      "identifier": null
+    }
+  }
+}

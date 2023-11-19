@@ -1,0 +1,98 @@
+{
+  "status": true,
+  "message": "Verification successful",
+  "data": {
+    "id": 2829100519,
+    "domain": "live",
+    "status": "success",
+    "reference": "888961899",
+    "receipt_number": "24762792496",
+    "amount": 1000,
+    "message": "madePayment",
+    "gateway_response": "Approved",
+    "paid_at": "2023-05-25T01:21:17.000Z",
+    "created_at": "2023-05-25T01:18:54.000Z",
+    "channel": "mobile_money",
+    "currency": "GHS",
+    "ip_address": "105.160.28.148",
+    "metadata": {
+      "referrer": "http://localhost/paystack/"
+    },
+    "log": {
+      "start_time": 1684977532,
+      "time_spent": 143,
+      "attempts": 1,
+      "errors": 0,
+      "success": true,
+      "mobile": false,
+      "input": [],
+      "history": [
+        {
+          "type": "action",
+          "message": "Attempted to pay with mobile money",
+          "time": 84
+        },
+        {
+          "type": "action",
+          "message": "Customer submitted OTP",
+          "channel": "mobile money",
+          "time": 124
+        },
+        {
+          "type": "success",
+          "message": "Successfully paid with mobile_money",
+          "time": 143
+        }
+      ]
+    },
+    "fees": 20,
+    "fees_split": null,
+    "authorization": {
+      "authorization_code": "AUTH_ocnvclcw6q",
+      "bin": "055XXX",
+      "last4": "X892",
+      "exp_month": "12",
+      "exp_year": "9999",
+      "channel": "mobile_money",
+      "card_type": "",
+      "bank": "MTN",
+      "country_code": "GH",
+      "brand": "Mtn",
+      "reusable": false,
+      "signature": null,
+      "account_name": null,
+      "mobile_money_number": "0552870892",
+      "receiver_bank_account_number": null,
+      "receiver_bank": null
+    },
+    "customer": {
+      "id": 124602165,
+      "first_name": "",
+      "last_name": "",
+      "email": "ticksody@gmail.com",
+      "customer_code": "CUS_2nbluk86vtipo4h",
+      "phone": "",
+      "metadata": null,
+      "risk_action": "default",
+      "international_format_phone": null
+    },
+    "plan": null,
+    "split": {},
+    "order_id": null,
+    "paidAt": "2023-05-25T01:21:17.000Z",
+    "createdAt": "2023-05-25T01:18:54.000Z",
+    "requested_amount": 1000,
+    "pos_transaction_data": null,
+    "source": null,
+    "fees_breakdown": [
+      {
+        "amount": 20,
+        "formula": null,
+        "type": "paystack"
+      }
+    ],
+    "transaction_date": "2023-05-25T01:18:54.000Z",
+    "plan_object": {},
+    "subaccount": {}
+  }
+}
